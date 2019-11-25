@@ -1,0 +1,7 @@
+bases:
+- https://github.com/bigkevmcd/taxi//deploy
+configMapGenerator:
+- name: www-files
+  files:
+  - index.html
+  - staging.html
