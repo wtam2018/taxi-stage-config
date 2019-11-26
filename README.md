@@ -1,4 +1,4 @@
-###Deployment configuration for the staging environment
+### Deployment configuration for the staging environment
 
 #### About
 This repository contains the kustomzisation overlays to deploy the [taxi application](https://github.com/sbose78/taxi)
