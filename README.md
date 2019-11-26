@@ -1,17 +1,17 @@
-### Deployment configuration for the staging environment
+# Deployment configuration for the staging environment
 
-#### About
+## About
 This repository contains the kustomzisation overlays to deploy the [taxi application](https://github.com/sbose78/taxi)
 
-#### Why
+## Why
 The `stage` configuration repository for the [taxi application](https://github.com/sbose78/taxi) is used for maintaining the incremental deployment configuration ( 'manifests' ), specific to the `stage` environment.
 
-#### Pipelines
+## Pipelines
 The [pipelines](../pipelines) that power the CI jobs for this repository have been defined as Tekton Tasks & Tekton Pipeline definitions.
 
-##### CI
+### CI
 The CI pipeline validates changes to the [kustomize'd deployment manifests](../deployment) 
 
-##### CD
+### CD
 The CD pipeline deploys the kustomize'd kubernetes manifests of the `taxi` app to the `stage` environment.
 
