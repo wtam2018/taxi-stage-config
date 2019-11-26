@@ -6,6 +6,6 @@ configMapGenerator:
   - index.html
   - staging.html
 images:
-- name: quay.io/kmcdermo/hello-go
+- name: quay.io/kmcdermo/taxi
   newName: quay.io/kmcdermo/hello-kotlin
   newTag: latest
