@@ -5,3 +5,7 @@ configMapGenerator:
   files:
   - index.html
   - staging.html
+images:
+- name: quay.io/kmcdermo/hello-go
+  newName: quay.io/kmcdermo/hello-kotlin
+  newTag: latest
