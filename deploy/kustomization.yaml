@@ -7,5 +7,4 @@ configMapGenerator:
   - staging.html
 images:
 - name: quay.io/kmcdermo/taxi
-  newName: quay.io/kmcdermo/hello-kotlin
-  newTag: latest
+  newTag: 6fa109841d131c78ceb4e2e6ccccbdd11c08f836
