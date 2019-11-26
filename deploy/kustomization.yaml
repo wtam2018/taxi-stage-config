@@ -1,5 +1,5 @@
 bases:
-- https://github.com/bigkevmcd/taxi/deploy
+- https://github.com/bigkevmcd/taxi/deploy/templates
 configMapGenerator:
 - name: www-files
   files:
