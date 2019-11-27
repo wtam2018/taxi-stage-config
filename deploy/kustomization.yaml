@@ -1,10 +1,5 @@
 bases:
 - https://github.com/bigkevmcd/taxi/deploy/templates
-configMapGenerator:
-- name: www-files
-  files:
-  - index.html
-  - staging.html
 images:
 - name: quay.io/kmcdermo/taxi
   newTag: 6fa109841d131c78ceb4e2e6ccccbdd11c08f836
