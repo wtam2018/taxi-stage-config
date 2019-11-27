@@ -1,5 +1,14 @@
 bases:
 - https://github.com/bigkevmcd/taxi/deploy/templates
-images:
-- name: quay.io/kmcdermo/taxi
-  newTag: 6fa109841d131c78ceb4e2e6ccccbdd11c08f836
+configMapGenerator:
+- name: stage-www-files
+  files:
+  - index.html
+  - staging.html
+patchesJson6902:
+- target:
+    version: v1
+    group: apps
+    kind: Deployment
+    name: taxi
+  path: staging_patch.yaml
