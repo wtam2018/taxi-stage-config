@@ -1,5 +1,5 @@
 bases:
-- https://github.com/bigkevmcd/taxi/deploy/templates
+- https://github.com/bigkevmcd/taxi/deploy
 configMapGenerator:
 - name: stage-www-files
   files:
@@ -7,7 +7,7 @@ configMapGenerator:
   - staging.html
 images:
 - name: quay.io/kmcdermo/taxi
-  newTag: 9aec91499279de97031d39189b579f100521e315
+  newTag: a3ded7
 patchesJson6902:
 - target:
     version: v1
