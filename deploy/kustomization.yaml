@@ -7,7 +7,7 @@ configMapGenerator:
   - staging.html
 images:
 - name: quay.io/kmcdermo/taxi
-  newTag: a3ded7
+  newTag: 105a85
 patchesJson6902:
 - target:
     version: v1
