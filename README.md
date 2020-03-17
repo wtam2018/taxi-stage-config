@@ -16,3 +16,4 @@ The CI pipeline validates changes to the [kustomize'd deployment manifests](../d
 The CD pipeline deploys the kustomize'd kubernetes manifests of the `taxi` app to the `stage` environment.
 
 
+
